@@ -1,0 +1,3 @@
+﻿  Bank Extension v2.cpp
+C:\Users\Elnour Tech\source\repos\Bank Extension v2\Bank Extension v2\Bank Extension v2.cpp(55,26): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  Bank Extension v2.vcxproj -> C:\Users\Elnour Tech\source\repos\Bank Extension v2\x64\Debug\Bank Extension v2.exe
