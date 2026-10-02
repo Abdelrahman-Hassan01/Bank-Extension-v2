@@ -498,7 +498,7 @@ void ShowTotalBalances(vector<sClient> vClients)
     cout << "\n\t\tTotal Balance = " << TotalBalance << endl;
 }
 
-// ====================== users ======================
+
 bool FindUserByUsername(string UserName, vector<sUser>& vUsers, sUser& User)
 {
     for (sUser C : vUsers)
@@ -1128,12 +1128,12 @@ void HandleMainMenuOption(MainMenuChoice UserChoice, vector<sClient>& vClient, v
         StartTransctionsMenu(vClient);
         break;
     case ManageUsers:
-        /*if (!CheckAccessPermission(64))
+        if (!CheckAccessPermission(64))
         {
             ShowAccessDeniedMessage();
             GoBackToMainMenu();
             break;
-        }*/
+        }
         StartManageUsersMenu(vUser);
         break;
     case LogOut:
